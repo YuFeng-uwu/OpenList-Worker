@@ -47,7 +47,7 @@
   // 注意：vars 会在每次 wrangler deploy 时被本文件覆盖（Secrets 不会）。
   // ===========================================================================
   "vars": {
-    "JWT_SECRET": "zxcvbnm114514"
+    "JWT_SECRET": "zxcvbnm114514",
 
     "ENVIRONMENT": "production",
 
