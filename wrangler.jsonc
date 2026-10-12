@@ -48,7 +48,7 @@
   // ===========================================================================
   "vars": {
     "JWT_SECRET": "zxcvbnm114514",
-    "ENVIRONMENT": "production"
+    "ENVIRONMENT": "production",
 
     // 数据存储格式：
     //   map（默认）- 整对象序列化为单个 JSON 键值，适合 KV/Blob
@@ -143,6 +143,13 @@
     // "MYSQL_USER": "root",
     // "MYSQL_PASS": "",
     // "MYSQL_NAME": "openlist",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "openlist-db",
+      "database_id": "97242913-5651-47bd-bc16-cbf6d66813b9"
+    }
+  ],
   },
 
   // ===========================================================================
