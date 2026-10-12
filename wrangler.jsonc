@@ -48,8 +48,7 @@
   // ===========================================================================
   "vars": {
     "JWT_SECRET": "zxcvbnm114514",
-
-    "ENVIRONMENT": "production",
+    "ENVIRONMENT": "production"
 
     // 数据存储格式：
     //   map（默认）- 整对象序列化为单个 JSON 键值，适合 KV/Blob
